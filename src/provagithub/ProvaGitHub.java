@@ -16,8 +16,10 @@ public class ProvaGitHub {
      */
     public static void main(String[] args) {
         int i=0;
+        String hello;
         while(true){
-            System.out.println("ehi ciao "+i);
+            hello="ciao";
+            System.out.println("ehi ciao "+i+hello);
             i++;
            
         }
